@@ -7,6 +7,8 @@ import Nav from "./components/Nav";
 function App() {
     return(
         <div className="App">
+            <Nav/>
+
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/about" element={<About/>}></Route>
